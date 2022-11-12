@@ -20,7 +20,7 @@ body {
     font-size: 100px;
     letter-spacing: 5px;
     margin: 0;
-    color: white;
+    color: #E5ECE9;
     text-shadow: 0 0 3px black;
 }
 
@@ -46,6 +46,10 @@ h2 {
     text-transform: uppercase;
 }
 
+#recipe-container {
+    position: relative;
+    top: -70px;
+}
 
 #recipe-list {
     height: auto;
