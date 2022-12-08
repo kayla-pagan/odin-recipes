@@ -10,14 +10,17 @@ body {
 }
 
 #header {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 70px 15px 70px;
     position: relative;
-    z-index: 50;
+    z-index: 100;
+    top: 250px;
     padding-top: 40px;
-    background-image: linear-gradient(#DBBADD99, #BE92A299);
+    overflow: hidden;
+    background-color: #BE92A270;
     box-shadow: 0 0 10px #dbbadd;
-    border-bottom-style: ridge;
-    border-top-style: ridge;
-    
 }
 
 
@@ -39,6 +42,7 @@ body {
     background-size: cover;
     background-position: -3pc;
     position: relative;
+    top: -150px;
     margin-bottom: 0;
 }
 
