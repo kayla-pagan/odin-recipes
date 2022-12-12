@@ -15,9 +15,8 @@ body {
     margin-left: auto;
     padding: 50px 70px 15px 70px;
     position: relative;
-    z-index: 100;
+    z-index: 1;
     top: 250px;
-    padding-top: 40px;
     overflow: hidden;
     background-color: #BE92A270;
     box-shadow: 0 0 10px #dbbadd;
@@ -27,7 +26,8 @@ body {
 #main-title {
     font-family: Christmas Onlovia;
     font-size: 100px;
-    letter-spacing: 5px;
+    font-weight: 100;
+    letter-spacing: 1px;
     margin: 0;
     color: #E5ECE9;
     text-shadow: 0 0 3px black;
@@ -42,24 +42,22 @@ body {
     background-size: cover;
     background-position: -3pc;
     position: relative;
-    top: -150px;
+    top: -180px;
     margin-bottom: 0;
 }
 
-h2 {
+#recipe-container {
+    position: relative;
+    top: -70px;
+}
+
+#recipe-title {
     font-family: 'Neucha', cursive;
     font-size: 40px;
     letter-spacing: 1px;
     color: #BE92A2;
     text-shadow: 0 0 1px black;
     text-transform: uppercase;
-}
-
-
-
-#recipe-container {
-    position: relative;
-    top: -70px;
 }
 
 #recipe-list {
@@ -89,3 +87,35 @@ h2 {
     text-shadow: 0 0 2px black;
 }
 
+/* lasagna style */
+
+#lasagna-main-title {
+    font-family: Christmas Onlovia;
+    font-size: 80px;
+    font-weight: 100;
+    color: #E5ECE9;
+    text-shadow: 0 0 2px black;
+}
+
+#lasagna-pic {
+    width: 500px;
+    height: auto;
+    border: 8px dashed #DBBADD;
+}
+
+.lasagna-recipe-text {
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+    color: #BE92A2;
+    text-shadow: 0 0 2px black;
+}
+
+.lasagna-subtitles {
+    font-size: 35px;
+    font-family: 'Neucha', cursive;
+    color: #BE92A2;
+}
+
+#lasagna-ingredients {
+    list-style: none;
+}
